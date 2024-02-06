@@ -9,9 +9,9 @@
     box-sizing: border-box;
 }
 
-/* header *{
+header *{
     position:sticky;
-} */
+}
 
 .menu{
     display: flex;
@@ -284,3 +284,59 @@ margin: -15px 0 15px;
     text-decoration: underline;
 
 }
+
+
+
+.art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 10%;
+    padding: 2%;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.uio{
+    background-color: #dfdfdf7a;
+}
+.ame{
+    font-family: 'Oswald', sans-serif;
+    justify-content: end;
+    margin: 1%;
+    padding: 3%;
+    background-color: #ffffff8a;
+    border-radius: 45px;
+
+}
+.mepic img{
+    width: 10wh;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);  
+    border-radius: 10%;
+    justify-content: start;
+    }
+
+    .mepic img:hover{
+        transform: scale(1.1) translatex(-30px);
+    }
+
+    .team{
+        text-align: center;
+    font-family: 'Oswald', sans-serif;
+font-weight: 900;
+font-size: xx-large;
+    }
+
+    .leo img{
+        width: 100%;
+        height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);  
+    border-radius: 10%;
+    justify-content: start;
+    }
+    .leo img:hover{
+        transform: rotate(360deg);
+        /* transform-origin: left top; */
+        transition-duration: 2s;
+    }
