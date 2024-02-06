@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Oswald:wght@400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Pacifico&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header *{
+    position:sticky;
+} */
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px black;
+    height: auto;
+    padding: 1%;
+    text-decoration:none;
+    font-family: 'EB Garamond', serif;
+font-family: 'Pacifico', cursive;
+font-size: larger;
+position: sticky;
+
+}
+
+a:link { 
+    text-decoration: none; 
+/* 
+    color: #daccee; */
+  } 
+.sec1{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+margin: 4%;
+gap: 5px;
+
+}
+.sec2 *{
+    border-radius: 3cqb;
+    padding: 2%;
+    font-family: 'EB Garamond', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Protest Strike', sans-serif;
+font-size: larger;
+}
+.img1{
+    /* width: 100%;
+     height: 40%; */
+    display: flex;
+    justify-content: start;
+    
+}
+
+.levelup{
+    width: 100%;
+    height: 10rem;
+    background-color: #faf6e9;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.essentials{
+    background-color: #f1e9e3;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+.first , .second{
+    font-family: 'Oswald', sans-serif;
+    color: #14131398;
+    margin: 1%;
+    padding: 1%;
+    border: #f1e9e3 1px solid;
+}
+
+.first:not(card){
+    background-color: #f1e9e3;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.card {
+    width: 16rem;
+    /* height: 33rem; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.342);
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Poppins', sans-serif;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.card  img{
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.card *{
+    font-family: 'Oswald', sans-serif;
+color: black;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+color: rgb(63, 21, 83);
+}
+.price{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(77, 28, 102);
+}
+.wp1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+}
+.Waterbottles {
+    font-family: 'Oswald', sans-serif;
+    color: #14131398;
+    margin: 1%;
+    padding: 1%;
+
+}
+button{
+    padding: 2%;
+}
+.card1 img{
+    box-sizing: content-box;
+    width: 80%;
+    height: auto;
+}
