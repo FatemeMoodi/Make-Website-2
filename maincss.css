@@ -156,3 +156,131 @@ button{
     width: 80%;
     height: auto;
 }
+.second{
+    background-color: #dfdfdf;
+    margin: 0;
+}
+
+.sbody:not(header){
+    width: 100%;
+min-height: 100vh;
+border-image:url(./img/bc.png);
+block-size: cover;
+background-image: url("https://img.freepik.com/premium-vector/3d-rendered-abstract-colorful-splash-background_876236-1238.jpg?w=740");
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+
+
+}
+.smain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.form1{
+    width: 20rem;
+   /* height: 20rem; */
+   background-color: transparent;
+   border: 2px solid rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+   color: #fff;
+   border-radius: 10px;
+   padding: 30px 40px;
+}
+
+.form1 .box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0 ;
+
+}
+.box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.box input::placeholder{
+    color: #fff;
+}
+
+form > h1{
+    font-family: 'Oswald', sans-serif;
+}
+.checkbox{
+font-family: 'Poppins', sans-serif;
+    
+}
+
+.Remember{
+display: flex;
+justify-content: space-between;
+font-size: 14.5px;
+margin: -15px 0 15px;
+}
+
+.Remember label input{ 
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.Remember a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.Remember a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.register{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+.register p{
+    display: inline-block;
+}
+.register  a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.register a:hover{
+    text-decoration: underline;
+
+}
