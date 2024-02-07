@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Oswald:wght@400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&family=Pacifico&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+@media screen and (max-width:400px){
+    .moreusp{
+        font-size: small;
+    }
+    .para h3{
+        font-size: small;
+    }
+    .para a{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:1185px){
+    .sec1,.sec2{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90%;
+    }
+    .homepic, hpic{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:550px){
+  .ame{
+    font-size:smaller;
+  }
+   
+}
+@media screen and (max-width:350px){
+    .team{
+      font-size:medium;
+    }
+     
+  }
+
+  @media screen and (max-width:900px){
+    .art{
+      flex-direction: column;
+    }
+     
+  }
+  @media screen and (max-width:500px){
+    .mepic img{
+width: 200px;    }
+     
+  }
+footer{
+    box-shadow: 0 0 10px rgb(170, 156, 156);
+}
+  footer *{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+display: flex;
+justify-content: space-evenly ;
+padding: 5px;
+  }
+
+  @media screen and (max-width:700px){
+footer{
+    font-size: small;
+}    
+}
+@media screen and (max-width:550px){
+    footer{
+        font-size: x-small;
+    }    
+    }
+    @media screen and (max-width:450px){
+        footer{
+            font-size: xx-small;
+        }    
+        }
+        
